@@ -11,7 +11,13 @@
 		}
 	],
 	"Plugins": [
-		{
+		 {
+        "Name": "OceanPlugin",
+        "Type": "Runtime",
+        "LoadingPhase": "PreDefault",
+        "Enabled": true
+    }
+]
 			"Name": "SteamVR",
 			"Enabled": false,
 			"SupportedTargetPlatforms": [
