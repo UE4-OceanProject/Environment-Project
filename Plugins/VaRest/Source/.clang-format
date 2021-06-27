@@ -1,0 +1,22 @@
+﻿---
+Language:                                       Cpp
+BasedOnStyle:                                   LLVM
+IndentWidth:                                    4
+TabWidth:                                       4
+UseTab:                                         ForContinuationAndIndentation
+Standard:                                       Cpp11
+AccessModifierOffset:                           -4
+AlignAfterOpenBracket:                          DontAlign
+AlignEscapedNewlines:                           Right
+AlignTrailingComments:                          true
+AllowShortCaseLabelsOnASingleLine:              true
+AllowShortFunctionsOnASingleLine:               InlineOnly
+BreakBeforeBraces:                              Allman
+BreakConstructorInitializersBeforeComma:        true
+ColumnLimit:                                    0
+PointerAlignment:                               Left
+SpacesInAngles:                                 false
+---
+Language: ObjC
+DisableFormat: true
+...

@@ -6,12 +6,12 @@ DotCam :
 
 Handkor :
 -Initial Shader
--Code for Buoyancy
+-Code for buoyancy
 
 
 TK-Master :
--BuoyancyComponent
--BuoyancyForceComponent
+-BuoyantComponent
+-BuoyantForceComponent
 -BuoyantDestrutible
 -Infinite Ocean System
 -Screen Space Reflections (SSR)
@@ -39,7 +39,7 @@ Nadrugal :
 
 
 Burnrate (Justin Beales) :
--AdvancedBuoyancyComponent
+-AdvancedBuoyantComponent
 * Created with Misc. Games and Intelligent Procedure for:
 * Fishing: Barents Sea
 * http://miscgames.no/
@@ -66,7 +66,7 @@ BlueEagle :
 - Tons of code/project cleanup, conversion of ocean to cpp
 
 Przemek2122 :
--  Refactored Buoyancy Component
+-  Refactored Buoyant Component
 
 Beskar_Mando :
 - New buoyancy system (In progress)

@@ -16,3 +16,6 @@
 [submodule "Plugins/OceanPlugin"]
 	path = Plugins/OceanPlugin
 	url = https://github.com/UE4-OceanProject/OceanPlugin.git
+[submodule "Plugins/WeatherSysPlugin"]
+	path = Plugins/WeatherSysPlugin
+	url = ../WeatherSysPlugin
