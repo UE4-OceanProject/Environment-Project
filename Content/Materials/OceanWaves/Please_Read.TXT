@@ -1,0 +1,15 @@
+Unreal Engine 4 Vertex Shader
+--- Ocean Formula ---
+
+This project is still a work in progress
+Feel free to use and make any changes as you see fit
+
+Enjoy!
+
+- Jeremy Baldwin - 
+www.eat3d.com
+
+This is not to be re-distributed outside of the UE4 community
+unless propper permission is given
+
+https://forums.unrealengine.com/t/jbaldwin-ue4-content-preview-thread/2516/75
