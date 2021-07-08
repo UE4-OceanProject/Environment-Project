@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "ShaderBits GDC Pack",
+	"Description": "A collection of volume encoding, decoding and raymarching functions.",
+	"Category": "Materials",
+	"CreatedBy": "Ryan Brucks",
+	"CreatedByURL": "shaderbits.com/blog",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false
+}
