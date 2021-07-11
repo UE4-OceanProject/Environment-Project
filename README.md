@@ -1,7 +1,17 @@
 # EnvironmentProject
 An Environment Simulation project for Unreal Engine 4.
 
-Includes everything from the Ocean Project (LEGACY and <= 4.20 versions) but split up into muliple plugins now:
+To install this you need to execute the command prompt in Git-CMD or Git-Bash
+git clone https://github.com/UE4-OceanProject/Environment-Project.git -b Master-Environment-Project
+
+Now that the project plugins are split into multiple you must execute the Git-CMD or Git-Bash
+
+git submodule update --init --recursive
+
+This will load the plugins if you forgot this there will be multiple errors
+from the Unreal Editor saying its missing modules and searching plugins directories will find them empty. 
+
+Includes everything from the Ocean Project (LEGACY and <= 4.20 versions) but split up into multiple plugins now:
 Buoyancy
 Ocean
 Fish
