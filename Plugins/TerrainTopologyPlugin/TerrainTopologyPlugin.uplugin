@@ -1,0 +1,21 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "TerrainTopologyPlugin",
+  "Description": "Generate Aspect, Curvature, Flow, Normal, Residual, Slope textures from landscapes!",
+  "Category": "Terrain",
+  "CreatedBy": "EvoPulse",
+  "CreatedByURL": "",
+  "DocsURL": "",
+  "SupportURL": "",
+  "EnabledByDefault": true,
+  "CanContainContent": true,
+  "Modules": [
+    {
+      "Name": "TerrainTopologyPlugin",
+      "Type": "Runtime",
+      "LoadingPhase": "PreDefault"
+    }
+  ]
+}
