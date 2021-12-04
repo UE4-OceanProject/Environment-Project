@@ -19,11 +19,11 @@ public:
 	virtual void StartupModule() override;
 	virtual void ShutdownModule() override;
 
-	void EnforceSingletonActor(UWorld* World);
-	ATerrainTopologyManager * SpawnSingletonActor(UWorld* World);
-	void InitSingletonActor(UWorld* World, const UWorld::InitializationValues IVS);
+	//void EnforceSingletonActor(UWorld* World);
+	//ATerrainTopologyManager * SpawnSingletonActor(UWorld* World);
+	//void InitSingletonActor(UWorld* World, const UWorld::InitializationValues IVS);
 
-	ATerrainTopologyManager * GetSingletonActor(UObject* WorldContextObject);
+	//ATerrainTopologyManager * GetSingletonActor(UObject* WorldContextObject);
 
 	/**
 	* Singleton-like access to this module's interface.  This is just for convenience!

@@ -31,9 +31,9 @@ class TERRAINTOPOLOGYPLUGIN_API UTerrainTopologyManagerFunctionLibrary : public 
 	GENERATED_BODY()
 
 public:
-	UFUNCTION(BlueprintPure, meta = (DisplayName = "Get Time Instance", Keywords = ""), meta = (WorldContext = "WorldContextObject"), Category = "TerrainTopologyManager")
-		static ATerrainTopologyManager* GetTerrainTopologyManager(UObject* WorldContextObject)
-	{
-		return FTerrainTopologyPlugin::Get().GetSingletonActor(WorldContextObject);
-	}
+	//UFUNCTION(BlueprintPure, meta = (DisplayName = "Get Terrain Topology Instance", Keywords = ""), meta = (WorldContext = "WorldContextObject"), Category = "TerrainTopologyManager")
+	//	static ATerrainTopologyManager* GetTerrainTopologyManager(UObject* WorldContextObject)
+	//{
+	//	return FTerrainTopologyPlugin::Get().GetSingletonActor(WorldContextObject);
+	//}
 };

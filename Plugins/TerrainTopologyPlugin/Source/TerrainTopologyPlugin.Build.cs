@@ -13,13 +13,18 @@ public class TerrainTopologyPlugin : ModuleRules
         PrivateIncludePaths.AddRange(new string[] { });
 
         PublicDependencyModuleNames.AddRange(new string[] {
-            "Core"
-		});
+            "Core",
+            "Landscape",
+            "Foliage",
+            "CoreUObject"
+        });
 
         PrivateDependencyModuleNames.AddRange(new string[] {
             "CoreUObject",
-            "Engine"
-		});
+            "Engine",
+            "RHI",
+            "RenderCore"
+        });
 
         DynamicallyLoadedModuleNames.AddRange(new string[] { });
     }
