@@ -6,12 +6,12 @@ DotCam :
 
 Handkor :
 -Initial Shader
--Code for Buoyancy
+-Code for buoyancy
 
 
 TK-Master :
--BuoyancyComponent
--BuoyancyForceComponent
+-BuoyantComponent
+-BuoyantForceComponent
 -BuoyantDestrutible
 -Infinite Ocean System
 -Screen Space Reflections (SSR)
@@ -24,10 +24,10 @@ TK-Master :
 -Underwater Distortion Effect
 -Underwater Caustics
 
-EvoPulseGaming :
+EvoPulseGaming (Sascha Elble):
 - Current project owner/manager
 - IWYU compliance fixes
-- Conversion into the Environment Plugin Project (Seperation of Ocean Project into individual plugins, cleanup, de-bloating)
+- Conversion into the Environment Plugin Project (Separation of Ocean Project into individual plugins, cleanup, de-bloating)
 - Physically correct sun/moon position code.
 - Several fixes and improvements to the sky system (eclipses, clouds hiding sun/moon, sun/moon/clouds hiding stars)
 
@@ -39,7 +39,7 @@ Nadrugal :
 
 
 Burnrate (Justin Beales) :
--AdvancedBuoyancyComponent
+-AdvancedBuoyantComponent
 * Created with Misc. Games and Intelligent Procedure for:
 * Fishing: Barents Sea
 * http://miscgames.no/
@@ -51,6 +51,8 @@ QuantumV :
 Komodoman :
 -Fish flocking AI and a variety of fish:
 
+@BlueEagle :
+New project logo (with waves/sun/moon/stars)
 
 
 Project maintainers (past and current):
@@ -59,6 +61,7 @@ Project maintainers (past and current):
 - NilsonLima
 ​​​​​​​- EvoPulseGaming
 - TK-Master
+- Nightmare489
 
 
 
@@ -66,7 +69,7 @@ BlueEagle :
 - Tons of code/project cleanup, conversion of ocean to cpp
 
 Przemek2122 :
--  Refactored Buoyancy Component
+-  Refactored Buoyant Component
 
 Beskar_Mando :
 - New buoyancy system (In progress)
