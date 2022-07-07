@@ -16,13 +16,16 @@ r.AllowGlobalClipPlane=True
 r.CustomDepthTemporalAAJitter=True
 r.DefaultFeature.AntiAliasing=2
 r.TemporalAA.Upsampling=True
+r.SupportSkyAtmosphereAffectsHeightFog=True
+r.SupportAtmosphericFog=True
+r.SupportSkyAtmosphere=True
 
 [/Script/Engine.Engine]
 NearClipPlane=10.000000
 
 #### How to package (and include OceanPlugin in the build)
 
-* Close your project and UE4
+* Close your project and UE5
 
 * Edit your `.uproject` and add this:
 
@@ -42,7 +45,7 @@ NearClipPlane=10.000000
   ```json
   {
   	"FileVersion": 3,
-  	"EngineAssociation": "4.20",
+  	"EngineAssociation": "5.0",
   	"Category": "",
   	"Description": "",
   	"Plugins": [
