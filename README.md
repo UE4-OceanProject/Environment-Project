@@ -2,7 +2,7 @@
 An Environment Simulation project for Unreal Engine 5.
 
 Simplest way to use this is with GitHub desktop, otherwise to install this you need to execute the command prompt in Git-CMD or Git-Bash
-git clone https://github.com/UE4-OceanProject/Environment-Project.git -b Master-Environment-Project
+git clone https://github.com/UE4-OceanProject/Environment-Project.git -b UE5
 
 Now that the project plugins are split into multiple you must execute the Git-CMD or Git-Bash
 
