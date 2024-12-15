@@ -51,7 +51,8 @@ public class EnvironmentProject : ModuleRules
             );
 
         // Make sure UBT reminds us of how to keep the project IWYU compliant
-        bEnforceIWYU = true;
+        IWYUSupport = IWYUSupport.Full;
+		CppStandard = CppStandardVersion.Cpp20;
 
-	}
+    }
 }

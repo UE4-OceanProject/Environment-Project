@@ -8,6 +8,7 @@ public class EnvironmentProjectTarget : TargetRules
 {
 	public EnvironmentProjectTarget(TargetInfo Target) : base(Target)
 	{
+		bOverrideBuildEnvironment = true;
 		Type = TargetType.Game;
 		ExtraModuleNames.Add("EnvironmentProject");
 	}
